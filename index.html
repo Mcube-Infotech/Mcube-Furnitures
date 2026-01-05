@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mcube Furniture</title>
+<!--   <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon" /> -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+
+<body>
+  <section id="hero" class="heroSection">
+    <!-- nav bar    heroHeader -->
+    <nav class="navbar navbar-expand-md bg-transparent">
+      <div class="container-fluid navContainer px-2 px-md-5">
+        <a class="navbar-brand fw-bold" href="#hero">
+          <img src="./assets/images/logo.png" width="200px" height="45px" alt="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <i class="bi bi-list text-white fs-2"></i>
+        </button>
+
+        <div class="offcanvas offcanvas-end" style="height: 100vh; background-color: rgba(48, 46, 46, 0.98)"
+          tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header justify-content-between p-2">
+            <span class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="./assets/images/logo.png" alt="logo" width="150px" height="50px" /></span>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav flex-grow-1 mx-md-auto">
+              <li class="nav-item">
+                <a class="nav-link px-2 px-lg-4 home-link" href="#hero" data-bs-dismiss="offcanvas">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2 px-lg-4" href="#furniture" data-bs-dismiss="offcanvas">Furniture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2 px-lg-4" href="#sofas" data-bs-dismiss="offcanvas">Sofas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2 px-lg-4" data-bs-dismiss="offcanvas" href="#aboutUs">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2 px-lg-4" href="#Gallery" data-bs-dismiss="offcanvas">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2 px-lg-4" href="#contactUs" data-bs-dismiss="offcanvas">Contact Us</a>
+              </li>
+            </ul>
+            <div class="nav-icons ms-md-auto d-flex gap-3">
+                <i class="bi bi-search"></i>
+                <i class="bi bi-person"></i>
+                <i class="bi bi-list"></i>
+              </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav ber end -->
+
+    <div class="heroBody">
+      <h2>
+        Furniture That Speaks Comfort,
+        <span class="text-nowrap">Quality and Style</span>
+      </h2>
+      <p>
+        Transform your home with furniture designed to fit your life. At Mcube
+        Furniture, we blend modern designs with timeless comfort, creating
+        pieces that feel as good as they look.
+      </p>
+      <button type="button" class="btn shopNow p-2 px-4">Shop Now</button>
+    </div>
+    <div class="heroFooter">
+      <p>Designer Pieces</p>
+      <p>Luxury Meterials</p>
+      <p>Exculsive <span class="text-nowrap">Modern Design</span></p>
+    </div>
+  </section>
+
+  <section id="aboutUs" class="container aboutUs">
+    <div class="aboutUsTop row">
+      <div class="finance col-md-3 text-center">
+        <img src="./assets/images/wallet 1.png" alt="wallet" width="30px" height="30px" />
+        <h4>Financing Available</h4>
+        <p>Shop now pay overtime</p>
+      </div>
+      <div class="exculsive col-md-3 text-center">
+        <img src="./assets/images/exclusive 1.png" alt="exculsive" width="30px" height="30px" />
+        <h4>Exclusive Modern Design</h4>
+        <p>Curated furniture to match your style</p>
+      </div>
+      <div class="support col-md-3 text-center">
+        <img src="./assets/images/support.png" alt="support" width="30px" height="30px" />
+        <h4>Online Experience</h4>
+        <p>Design consultants ready to help</p>
+      </div>
+      <div class="security col-md-3 text-center">
+        <img src="./assets/images/security 1.png" alt="security" width="30px" height="30px" />
+        <h4>Peace of Mind</h4>
+        <p>Guardian accidental protection plan</p>
+      </div>
+    </div>
+    <div class="aboutUsBottom row g-4 justify-content-center">
+      <div class="col-md-4 reveal-card">
+        <div class="card-inner sofa">
+          <h4>Sofa</h4>
+          <button class="btn shopNow">Shop Now</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 reveal-card">
+        <div class="card-inner lighting">
+          <h4>Lighting</h4>
+          <button class="btn shopNow">Shop Now</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 reveal-card">
+        <div class="card-inner dining">
+          <h4>Dining</h4>
+          <button class="btn shopNow">Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="storage">
+    <div class="innerStorage reveal-card">
+      <h3>Built-In Storage. Built-In Style.</h3>
+      <p>
+        It’s not just furniture — it’s a statement piece, a comfort zone, and
+        sometimes even a bed! From casual lounging to formal entertaining, a
+        well-designed sofa adds function, warmth, and style to your home.
+      </p>
+      <button type="button" class="btn shopNow p-2 px-4">Shop Now</button>
+    </div>
+  </section>
+
+  <section id="Gallery" class="products container my-5">
+    <div class="products-box reveal-card">
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-3 col-10">
+          <div class="product-card chairs">
+            <h4>Chairs</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-10">
+          <div class="product-card diningTable">
+            <h4>Dining Table</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-10">
+          <div class="product-card couches">
+            <h4>Couches</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-10">
+          <div class="product-card cabinets">
+            <h4>Cabinets</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="furniture" class="container-fluid py-5 gx-0">
+    <div class="row gx-0 align-items-center">
+      <div class="col-md-6">
+        <div class="furnitureLeft"></div>
+      </div>
+
+      <div class="col-md-6">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+              class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="product-slide">
+                <img src="./assets/images/wooden wing chair.png" />
+                <div class="product-info">
+                  <h4>Wooden Wing Chair</h4>
+                  <p>₹ 17,000</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="product-slide">
+                <img src="./assets/images/Table Teak furniture Chair.png" />
+                <div class="product-info">
+                  <h4>Teak Furniture Chair</h4>
+                  <p>₹ 12,500</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="product-slide">
+                <img src="./assets/images/Bedside Tables Chest of drawers.png" />
+                <div class="product-info">
+                  <h4>Chest of Drawers</h4>
+                  <p>₹ 10,800</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="product-slide">
+                <img src="./assets/images/sofas.png" />
+                <div class="product-info">
+                  <h4>Luxury Sofa</h4>
+                  <p>₹ 32,000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="sofaDividerBar">
+    <div class="sofaDividerInner">
+
+      <img class="decor-line " src="./assets/images/design.png">
+
+      <div class="bookWrap">
+        <img class="decor-book" src="./assets/images/book.png">
+      </div>
+
+      <img class="decor-line" src="./assets/images/design.png">
+
+    </div>
+  </section>
+
+
+  <section class="indoorSofa container-fluid  row gx-0" id="sofas">
+    <div class="col-md-4 indoorSofaLeft">
+      <div class="outer">
+        <div class="innerIndoorSofaLeft reveal-card">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 indoorSofaRight">
+      <div class="innerIndoorSofaRight reveal-card">
+        <h3>Indoor Sofas That Feel Like a Hug.</h3>
+        <p>Wrap yourself in comfort with our collection of indoor sofas, thoughtfully designed to offer more than just
+          a seat. With plush cushions, premium fabrics, and cozy contours, each piece is made to make you feel
+          embraced the moment you sit down.</p>
+        <button class="btn shopNow">Shop Now</button>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="deals py-5 container-fluid gx-0">
+    <div class="dealsTop  px-5 pb-4">
+      <h4>New Week, New Deals</h4>
+      <p>Scroll to See More
+        <i class="bi bi-arrow-right"></i>
+      </p>
+    </div>
+    <div class="dealsBottom d-grid align-items-center">
+      <div class="row justify-content-center py-4 px-2" style="margin-left: 0px; margin-right: 0px; row-gap: 20px;">
+        <div class="col-md-4 col-10">
+          <div class="deal-card  reveal-card">
+            <img src="./assets/images/modern-chair-table 1.png">
+            <h4>Outdoor Furnitures</h4>
+            <button type="button" class="btn shopNow">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-10">
+          <div class="deal-card  reveal-card">
+            <img src="./assets/images/green-child-living-room-interior-with-copy-space 1.png">
+            <h4>Kids Furnitures</h4>
+            <button type="button" class="btn shopNow">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-10">
+          <div class="deal-card  reveal-card">
+            <img src="./assets/images/pexels-mikhail-nilov-9300770 1.png">
+            <h4>Home Office</h4>
+            <button type="button" class="btn shopNow">Shop Now</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="sofaDividerBar">
+    <div class="sofaDividerInner">
+
+      <img class="decor-line " src="./assets/images/design.png">
+
+      <div class="bookWrap">
+        <img class="decor-book" src="./assets/images/book.png">
+      </div>
+
+      <img class="decor-line" src="./assets/images/design.png">
+
+    </div>
+  </section>
+
+
+  <section class="outdoorSale">
+    <div class="outdoorSaleTop ">
+      <div class="saleContent reveal-card">
+        <h2>Big Outdoor Sale</h2>
+        <h1>50% OFF!</h1>
+
+        <button type="button" class="btn shopNow">
+          Shop Now
+        </button>
+      </div>
+
+      <div class="verticalText">
+        <span class="reveal-card">D</span>
+        <span class="reveal-card">e</span>
+        <span class="reveal-card">a</span>
+        <span class="reveal-card">l</span>
+        <span class="reveal-card">s</span>
+      </div>
+    </div>
+   <div class="outdoorSaleBottom">
+
+  <a href="#" class="sale-box first">
+    <div class="overlay reveal-card">
+      <i class="bi bi-instagram"></i>
+    </div>
+  </a>
+
+  <a href="#" class="sale-box second">
+    <div class="overlay reveal-card">
+      <i class="bi bi-instagram"></i>
+    </div>
+  </a>
+
+  <a href="#hero" class="sale-box third">
+    <div class="overlay reveal-card">
+      <img src="./assets/images/logo.png" class="logo-overlay">
+    </div>
+  </a>
+
+  <a href="#" class="sale-box fourth">
+    <div class="overlay reveal-card">
+      <i class="bi bi-instagram"></i>
+    </div>
+  </a>
+
+</div>
+
+  </section>
+
+  <footer id="contactUs" class="footer bg-dark text-white py-4">
+    
+      <div class="px-5">
+
+            <!-- Newsletter -->
+    <div class="container-fluid pb-5 border-bottom border-secondary border-start border-end">
+      <div class="row align-items-center gy-4">
+
+        <div class="col-md-6 px-5 reveal-card">
+          <h3 class="fw-bold">News Letter</h3>
+          <p>
+            Get the latest updates, exclusive deals, and expert tips delivered straight
+            to your inbox. Be the first to hear about new arrivals, behind-the-scenes
+            stories, and more!
+          </p>
+        </div>
+
+        <div class="col-md-6 px-5">
+          <form class="newsletter-form  reveal-card">
+            <input type="text" class="form-control mb-2" placeholder="Name">
+            <input type="email" class="form-control mb-2" placeholder="Email">
+            <button class="btn btn-light w-100">Subscribe</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer Info -->
+    <div class="container-fluid py-5 border-bottom border-secondary border-start border-end">
+      <div class="row gy-4 text-md-start text-center">
+
+        <!-- Brand -->
+        <div class="col-md-4 px-5 border-end">
+          <img src="./assets/images/logo.png" alt="Mcube Furniture Logo" class="footer-logo mb-3 reveal-card">
+          <p>Follow Us</p>
+
+          <div class="d-flex gap-3 justify-content-md-start justify-content-center reveal-card">
+            <a href="#" class="text-white fs-4"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white fs-4"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+
+        <!-- Customer Care -->
+        <div class="col-md-4 px-5 border-end">
+          <h5 class="fw-bold mb-3 reveal-card">Customer Care</h5>
+
+          <ul class="list-unstyled footer-links reveal-card">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Shipping & Delivery</a></li>
+            <li><a href="#">Returns & Exchanges</a></li>
+            <li><a href="#">Track Your Order</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-md-4 px-5 reveal-card">
+          <h5 class="fw-bold mb-3 ">Contact Us</h5>
+
+          <p><i class="bi bi-telephone me-2"></i> +91 7695978704</p>
+          <p><i class="bi bi-envelope me-2"></i> Contact@Mcubeinfotech.Com</p>
+          <p>
+            <i class="bi bi-geo-alt me-2"></i>
+            D.No 19 High School Road, Ambasamudram,<br>
+            Tirunelveli, Tamilnadu, PIN – 627401 India
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center py-3 small">
+      Copyright © 2025 Mcube Designbridge, All Rights Reserved
+    </div>
+
+
+      </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>
